@@ -84,14 +84,47 @@
             android:id="@+id/Correo"/>
     </LinearLayout>
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_margin="20dp"
-        android:id="@+id/boton_aceptar"
-        android:backgroundTint="#4ec3ed"
-        android:text="Aceptar"
-        android:textColor="#ffffff"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/botondatosPrimitivos"
+                android:text="Enviar"
+                android:textSize="12sp"
+                android:backgroundTint="#4ec3ed"
+                android:textColor="#ffffff"/>
+
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/boton_serializable"
+                android:backgroundTint="#4ec3ed"
+                android:text="Serializable"
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="10dp"
+                android:id="@+id/boton_parceable"
+                android:backgroundTint="#4ec3ed"
+                android:text="Parceable"
+                android:textSize="12sp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>
